@@ -1,5 +1,4 @@
 def stock_picker(stock_array)
-  stock_array = [17,3,6,9,15,8,6,1,10]
   best_profit = {buy_idx: 0, sell_idx: 0, profit: -999}
   stock_array.each_with_index do |el, idx|
     next_idx = idx + 1;
